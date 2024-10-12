@@ -1,0 +1,70 @@
+[27-Sep-2024 15:19:07 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'your_mysql_username'@'localhost' (using password: YES) in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 19
+[27-Sep-2024 15:26:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/tzjwuepq/public_html/code/game/2/save_score.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 31
+[27-Sep-2024 15:30:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/tzjwuepq/public_html/code/game/2/save_score.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 34
+[27-Sep-2024 15:32:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 45
+[27-Sep-2024 15:32:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 45
+[27-Sep-2024 15:38:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 45
+[27-Sep-2024 15:39:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 45
+[27-Sep-2024 15:39:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 45
+[27-Sep-2024 15:42:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/tzjwuepq/public_html/code/game/2/save_score.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 37
+[27-Sep-2024 15:44:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/tzjwuepq/public_html/code/game/2/save_score.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 37
+[27-Sep-2024 15:44:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/tzjwuepq/public_html/code/game/2/save_score.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 37
+[27-Sep-2024 15:45:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/tzjwuepq/public_html/code/game/2/save_score.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 37
+[27-Sep-2024 15:48:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/tzjwuepq/public_html/code/game/2/save_score.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 47
+[27-Sep-2024 16:58:13 UTC] PHP Notice:  Undefined variable: conn in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 21
+[27-Sep-2024 16:58:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tzjwuepq/public_html/code/game/2/save_score.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 21
+[27-Sep-2024 16:58:18 UTC] PHP Notice:  Undefined variable: conn in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 42
+[27-Sep-2024 16:58:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tzjwuepq/public_html/code/game/2/save_score.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 42
+[27-Sep-2024 16:58:44 UTC] PHP Notice:  Undefined variable: conn in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 42
+[27-Sep-2024 16:58:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tzjwuepq/public_html/code/game/2/save_score.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/tzjwuepq/public_html/code/game/2/save_score.php on line 42
+[27-Sep-2024 20:41:14 UTC] Hours Since Last Login: 4
+[27-Sep-2024 20:41:14 UTC] Adding valid hours. New total hours: 4
+[27-Sep-2024 20:44:19 UTC] Hours Since Last Login: 4
+[27-Sep-2024 20:44:19 UTC] Adding valid hours. New total hours: 4
+[27-Sep-2024 20:44:31 UTC] Hours Since Last Login: 4
+[27-Sep-2024 20:44:31 UTC] Adding valid hours. New total hours: 8
+[27-Sep-2024 20:44:45 UTC] Hours Since Last Login: 4
+[27-Sep-2024 20:44:45 UTC] Adding valid hours. New total hours: 12
+[27-Sep-2024 20:48:57 UTC] Hours Since Last Login: 4
+[27-Sep-2024 20:48:57 UTC] Adding valid hours. New total hours: 4
+[27-Sep-2024 20:49:03 UTC] Hours Since Last Login: 4
+[27-Sep-2024 20:49:03 UTC] Adding valid hours. New total hours: 8
+[27-Sep-2024 20:49:08 UTC] Hours Since Last Login: 4
+[27-Sep-2024 20:49:08 UTC] Adding valid hours. New total hours: 12
+[27-Sep-2024 20:49:14 UTC] Hours Since Last Login: 4
+[27-Sep-2024 20:49:14 UTC] Adding valid hours. New total hours: 16
+[27-Sep-2024 20:52:58 UTC] Current Time: 2024-09-27 20:52:58
+[27-Sep-2024 20:52:58 UTC] Last Login Time: 2024-09-27 16:52:51
+[27-Sep-2024 20:52:58 UTC] Interval: 0 days, 4 hours, 0 minutes
+[27-Sep-2024 20:52:58 UTC] Hours Since Last Login: 4
+[27-Sep-2024 20:52:58 UTC] New Total Hours: 4

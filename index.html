@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Modular Working Platformer</title>
+
+    <!-- Modularized Scripts -->
+    <script src="player.js"></script>
+    <script src="enemy.js"></script>
+    <script src="score.js"></script>
+    <script src="metamask.js"></script>
+    <script src="game.js"></script>
+
+</head>
+<body>
+    <center>
+        <button id="connectWallet">Connect MetaMask</button>
+        <button id="logoutWallet">Logout</button>
+        <button id="saveSession">Save Game Session</button>
+        <button id="loadSession">Load Game Session</button>
+    </center>
+    
+    <center>
+        <div id="lifetimeScore">Lifetime Score: Loading...</div>
+        <div id="hoursSinceFirstLogin">Hours Since First Login: Loading...</div>
+
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </center>
+
+    <!-- Joystick container -->
+    <div id="joystickContainer">
+        <div id="joystick"></div>
+    </div>
+
+    <style>
+        /* Joystick styling */
+        #joystickContainer {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            width: 150px;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            touch-action: none;
+        }
+
+        #joystick {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</body>
+</html>
