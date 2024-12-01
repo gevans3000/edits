@@ -625,24 +625,6 @@ canvas.addEventListener('click', (event) => {
   }
 });
 
-// Function to show joystick
-function showJoystick() {
-    const joystick = document.getElementById('joystick');
-    joystick.style.display = 'block';
-    joystick.style.left = '20px'; // Fixed position from the left
-    joystick.style.bottom = '20px'; // Fixed position from the bottom
-}
-
-// Update touchstart event listener
-canvas.addEventListener('touchstart', () => {
-    showJoystick();
-}, false);
-
-// Add touchstart event listener
-canvas.addEventListener('touchstart', (event) => {
-    const touch = event.touches[0];
-    showJoystick(touch);
-}, false);
 
 document.addEventListener('DOMContentLoaded', () => {
     const joystickContainer = document.getElementById('joystickContainer');
